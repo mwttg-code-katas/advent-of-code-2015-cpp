@@ -1,0 +1,36 @@
+# Build
+/build/
+/bin/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# User-specific
+*.swp
+*.swo
+
+# target
+target/
+**/target/
+
+# Test/Debug logs
+*.log
+
+# Optional: Ignore compiled object files
+*.o
+*.obj
+
+# Optional: Ignore executable files (if you want to keep bin/ instead)
+*.exe
+*.out
