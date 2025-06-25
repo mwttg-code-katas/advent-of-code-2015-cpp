@@ -18,7 +18,7 @@ foreach (day_main ${days})
     target_link_libraries(${day_name} filereader)
 endforeach ()
 
-file(GLOB day_inputs "src/day*/input.txt")
+file(GLOB day_inputs "src/day*/*input.txt")
 foreach(input_file ${day_inputs})
     get_filename_component(day_dir ${input_file} DIRECTORY)
     get_filename_component(day_name ${day_dir} NAME)
