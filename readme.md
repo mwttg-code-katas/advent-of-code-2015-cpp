@@ -12,7 +12,7 @@
 |:---------------:|:--------:|:--------:|
 | [Day 01][day01] |  < 1 ms  |  < 1 ms  |
 | [Day 02][day02] |   4 ms   |   4 ms   |
-| [Day 03][day03] |   8 ms   |          |
+| [Day 03][day03] |   8 ms   |   5 ms   |
 
 [comment]: # "List of URLs down below, sorted alphabetically DESC by tag"
 [advent-of-code]: https://adventofcode.com/2015/
