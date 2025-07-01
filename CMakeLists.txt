@@ -9,6 +9,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/target)
 include_directories(include)
 
 add_library(filereader src/filereader.cpp)
+add_library(md5 src/md5.cpp)
 
 file(GLOB days "src/day*/main.cpp")
 foreach (day_main ${days})
@@ -16,7 +17,7 @@ foreach (day_main ${days})
     get_filename_component(day_name ${day_dir} NAME)
     file(GLOB day_sources "${day_dir}/*.cpp")
     add_executable(${day_name} ${day_sources})
-    target_link_libraries(${day_name} filereader)
+    target_link_libraries(${day_name} filereader md5)
 endforeach ()
 
 file(GLOB day_inputs "src/day*/*input.txt")
