@@ -14,6 +14,7 @@
 | [Day 02][day02] |   4 ms   |   4 ms   |
 | [Day 03][day03] |   8 ms   |   5 ms   |
 | [Day 04][day04] |   1 s    |   39 s   |
+| [Day 05][day05] |   3 ms   |          |
 
 [comment]: # "List of URLs down below, sorted alphabetically DESC by tag"
 [advent-of-code]: https://adventofcode.com/2015/
@@ -21,3 +22,4 @@
 [day02]: https://adventofcode.com/2015/day/2
 [day03]: https://adventofcode.com/2015/day/3
 [day04]: https://adventofcode.com/2015/day/4
+[day05]: https://adventofcode.com/2015/day/5
